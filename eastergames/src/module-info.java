@@ -1,2 +1,3 @@
 module eastergames {
+	exports codenames;
 }
