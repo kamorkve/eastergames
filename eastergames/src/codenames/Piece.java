@@ -3,9 +3,9 @@ package codenames;
 public class Piece {
 	
 	private String name;
-	private String color;
+	private char color;
 	
-	public Piece(String name, String color) {
+	public Piece(String name, char color) {
 		this.name = name;
 		this.color = color;
 	}
@@ -14,7 +14,7 @@ public class Piece {
 		return this.name;
 	}
 	
-	public String getColor() {
+	public char getColor() {
 		return this.color;
 	}
 
