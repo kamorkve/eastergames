@@ -8,6 +8,7 @@ public class Piece {
 	public Piece(String name, char color) {
 		this.name = name;
 		this.color = color;
+		System.out.println("Test");
 	}
 	
 	public String getName() {
