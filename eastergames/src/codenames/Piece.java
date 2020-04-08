@@ -3,20 +3,28 @@ package codenames;
 public class Piece {
 	
 	private String name;
-	private char color;
+	private String color;
 	
-	public Piece(String name, char color) {
+	public Piece(String name, String color) {
 		this.name = name;
 		this.color = color;
-		System.out.println("Test");
 	}
 	
 	public String getName() {
-		return name;
+		return this.name;
 	}
 	
-	public char getColor() {
-		return color;
+	public String getColor() {
+		return this.color;
 	}
 
+	@Override
+	public String toString() {
+		return "Piece [name=" + name + ", color=" + color + "]";
+	}
+	
+	
+	
+
+	
 }
